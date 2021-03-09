@@ -50,26 +50,24 @@ myself.firstName = "Josh";
 // Add a `lastName` property and set it to a string.
 myself.lastName = "Haines";
 // Add a `fullName` property and set it to the name properties put together with a space string in the middle.
-myself.fullName = myself.firstName + ' ' + myself.lastName
+myself.fullName = myself.firstName + " " + myself.lastName;
 // Add an `age` property and set it to a number.
-myself.age = 32
+myself.age = 32;
 // Add an address property and set it to an empty array.
-myself.address = []
+myself.address = [];
 // Now push three strings into that array.
-myself.address.street = '123 Stupid Rd.'
-myself.address.city = 'Raleigh'
-myself.address.state = 'N.C'
+myself.address.street = "123 Stupid Rd.";
+myself.address.city = "Raleigh";
+myself.address.state = "N.C.";
 console.log(myself);
 // Part 3 - setting key-value pairs in-line.
 // Now make a new object, but this time we'll pre-populate it, not set it in any lines below it. In other words, the properties should be set the same way I initially set the `codeImmersivesObject` on line 1. It can be called whatever you want and can have whatever properties you want, as long as they include at least one string value, boolean value, number value, and array of numbers. The important thing here is: this should all be done within the brackets of the object, not below the place where the object is declared.
 const lastObj = {
 	stang: "Here is my string",
-  boo: true,
-  numbuh: 6,
-  array: [1,2,3,4,5,6]
+	boo: true,
+	numbuh: 6,
+	array: [1, 2, 3, 4, 5, 6],
 };
 
-console.log(lastObj)
+console.log(lastObj);
 // As a stretch goal, go back pre-populate the object with at least one property using a key name that CAN'T be a variable name. That would be anything with a space in it, or a dash, or starting with a number.
-
-
