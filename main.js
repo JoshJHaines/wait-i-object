@@ -54,7 +54,7 @@ myself.fullName = myself.firstName + ' ' + myself.lastName
 // Add an `age` property and set it to a number.
 myself.age = 32
 // Add an address property and set it to an empty array.
-myself.address = {}
+myself.address = []
 // Now push three strings into that array.
 myself.address.street = '123 Stupid Rd.'
 myself.address.city = 'Raleigh'
