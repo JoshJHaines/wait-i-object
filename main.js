@@ -28,34 +28,42 @@ myCodeImmersivesObj.currentScore = 3;
 
 // Now add a new property called `cumulativeScore` and set it to 50.
 
-// myCodeImmersivesObj.cumulativeScore = 50;
+myCodeImmersivesObj.cumulativeScore = 50;
 
 // Now add your `currentScore` and your `cumulativeScore` and put it back in `cumulativeScore`.
 
-// myCodeImmersivesObj.cumulativeScore = cumulativeScore += currentScore;
+myCodeImmersivesObj.cumulativeScore = myCodeImmersivesObj.cumulativeScore +=
+	myCodeImmersivesObj.currentScore;
 
 // Now add a property called `I am exactly this cool` (you'll need bracket notation!) and set it to `soooooo cool`.
 
-// myCodeImmersivesObj.[`I am exactly this cool`] = 'soooooo cool'
+myCodeImmersivesObj[`I am exactly this cool`] = "soooooo cool";
 
-console.log(myCodeImmersivesObj)
+console.log(myCodeImmersivesObj);
 
 // Part 2 - your own object.
 // Now make a new EMPTY object that represents yourself. You won't put any properties in the curly braces, but just like in part 1, add them in each step below using plain JavaScript statements.
 
+const myself = {};
 // Add a `firstName` property and set it to a string.
-
+myself.firstName = "Josh";
 // Add a `lastName` property and set it to a string.
-
+myself.lastName = "Haines";
 // Add a `fullName` property and set it to the name properties put together with a space string in the middle.
-
+myself.fullName = myself.firstName + ' ' + myself.lastName
 // Add an `age` property and set it to a number.
-
+myself.age = 32
 // Add an address property and set it to an empty array.
-
+myself.address = {}
 // Now push three strings into that array.
-
+myself.address.street = '123 Stupid Rd.'
+myself.address.city = 'Raleigh'
+myself.address.state = 'N.C'
 // Part 3 - setting key-value pairs in-line.
 // Now make a new object, but this time we'll pre-populate it, not set it in any lines below it. In other words, the properties should be set the same way I initially set the `codeImmersivesObject` on line 1. It can be called whatever you want and can have whatever properties you want, as long as they include at least one string value, boolean value, number value, and array of numbers. The important thing here is: this should all be done within the brackets of the object, not below the place where the object is declared.
 
 // As a stretch goal, go back pre-populate the object with at least one property using a key name that CAN'T be a variable name. That would be anything with a space in it, or a dash, or starting with a number.
+
+
+
+console.log(myself);
