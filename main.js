@@ -20,6 +20,8 @@ myCodeImmersivesObj.term = 1;
 
 // Now add 1 to the value of your object's `term` property and put that new value back in your object's `term`.
 
+myCodeImmersivesObj.term = term += 1;
+
 // Now add a new property called `currentScore` and set it to 3.
 
 // Now add a new property called `cumulativeScore` and set it to 50.
