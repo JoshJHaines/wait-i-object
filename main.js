@@ -20,15 +20,25 @@ myCodeImmersivesObj.term = 1;
 
 // Now add 1 to the value of your object's `term` property and put that new value back in your object's `term`.
 
-myCodeImmersivesObj.term = term += 1;
+myCodeImmersivesObj.term = myCodeImmersivesObj.term + 1;
 
 // Now add a new property called `currentScore` and set it to 3.
 
+myCodeImmersivesObj.currentScore = 3;
+
 // Now add a new property called `cumulativeScore` and set it to 50.
+
+// myCodeImmersivesObj.cumulativeScore = 50;
 
 // Now add your `currentScore` and your `cumulativeScore` and put it back in `cumulativeScore`.
 
+// myCodeImmersivesObj.cumulativeScore = cumulativeScore += currentScore;
+
 // Now add a property called `I am exactly this cool` (you'll need bracket notation!) and set it to `soooooo cool`.
+
+// myCodeImmersivesObj.[`I am exactly this cool`] = 'soooooo cool'
+
+console.log(myCodeImmersivesObj)
 
 // Part 2 - your own object.
 // Now make a new EMPTY object that represents yourself. You won't put any properties in the curly braces, but just like in part 1, add them in each step below using plain JavaScript statements.
